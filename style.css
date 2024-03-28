@@ -1,0 +1,39 @@
+.stopwatch {
+    text-align: center;
+  }
+  
+  .display {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #stop, #reset {
+    opacity: 0.5;
+  }
+  
+  #start {
+    background-color: green;
+    color: white;
+  }
+  
+  #stop {
+    background-color: red;
+    color: white;
+  }
+  
+  #reset {
+    background-color: gray;
+    color: white;
+  }
